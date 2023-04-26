@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerve-Ana</title>
+    <link rel="logo icon" href="Logo 2.png"/>
+    <link rel="stylesheet" href="Nexperiment.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Nerve-Ana.html"><img src="Logo 2.png" alt="Nerve-ana's logo"></a>
+            <div class="nav-links"  id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="Nerve-Ana.html">HOME</a></li>
+                  <li><a href="Nexperiment.html">EXPERIMENT</a></li>
+                  <li><a href="Nresources.html">RESOURCES</a></li>
+                  <li><a href="Nabout.html">ABOUT</a></li>
+                  <li><a href="">JOIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>The Experiment</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col videoc">
+                <h1>Reaction Time</h1>
+                <p>Reaction time is the interval between a stimulus and a response. In FPS games, faster reaction time allows for quicker and more accurate responses to enemies, improving gameplay and increasing the chances of winning. 
+                   Thus the researchers tested Non-FPS players and FPS players reaction time to see if FPS games help people to improve their reaction time.</p>
+                <a href="Data1.gif" class="btn">Data Gathered</a>    
+            </div>
+            <div class="about-col videoc">
+                <video width="500" height="340" controls>
+                    <source src="reactiontime group 4.mp4" type="video/mp4" class="vid">
+                      Your browser does not support this video
+                  </video>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <video width="500" height="340" controls>
+                    <source src="handeye group 4.mp4" type="video/mp4" class="vid">
+                      Your browser does not support this video
+                  </video>
+            </div>
+            <div class="about-col">
+                <h1>Hand-eye Coordination</h1>
+                <p>Hand-eye coordination means how your hands and sight cooperate to enable you to perform tasks that call for speed and accuracy. 
+                   In FPS games, precise hand-eye coordination allows for accurate targeting and weapon control, improving gameplay and overall performance.
+                   Just like in reaction time, the researchers tested Non-FPS players and FPS players hand-eye coordination by the use of a website to see if FPS games help people to improve their hand-eye coordination 
+                </p>
+                <a href="Data2.gif" class="btn">Data Gathered</a>    
+            </div>
+        </div>
+    </section>
+    <section class="belowb">
+        <h1 id="text">What Science Concept Is This?</h1>
+        <p>Neuroscience, studies the brain's neural connections that link different parts of the brain and connect sensory input and motor output with the brain's message centers. Messages are sent from the eye to the visual cortex, then to the motor cortex, the spinal cord, and ultimately to the hand or finger muscles.</p>
+    </section>
+    <section class="discussion">
+        <h1>Discussion</h1>
+        <div class="row">
+            <div class="discussion-col">
+                <p>A recent study from the University of Toronto found that people who regularly play video games, 
+                    particularly action titles like ‘Call of Duty’ or ‘Assassin’s Creed’, perform better in sensorimotor tasks 
+                    and improve hand-eye coordination, than people who do not play video games. The results suggested that playing
+                     video games could be eventually become a treatment for people who struggle with hand-eye coordination or 
+                     sensorimotor skills in general. 
+                </p>
+            </div>
+            <div class="discussion-col">
+                <p>Playing first-person shooting games—contemporary examples include Apex Legends, Halo, Doom, Valorant, and Call of Duty—requires 
+                    rapid processing of sensory information and prompt action, forcing players to makes decisions and execute responses at a far 
+                    greater pace than is typical in everyday life. During game play, delays in processing often have severe consequences, providing 
+                    large incentive for players to increase speed causing avid game players react more readily to their environment.
+                </p>
+            </div>
+            <div class="discussion-col">
+                <p>Results show that playing video games does not give an immediate boost to learning a new skill, but does help individuals learn 
+                    the new sensorimotor skills faster over the same time period. However, it remains unknown whether any reduction in reaction time (RT)
+                    really generalizes to tasks beyond video-game playing and, if it does, whether it makes gamers more impulsive and prone to making errors.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col" id="concept">
+                <h1>Conclusion</h1>
+                <p>The study found that FPS players with more than 6 months of experience performed better than those with less than 6 months of experience in both the Reaction Time Test and the Hand-Eye Coordination Test. The former measures reaction time while the latter measures hand-eye coordination. The experienced players had an average reaction time that was 105 milliseconds faster and an average score on the Hand-Eye Coordination Test that was 14 points higher. This supports the hypothesis that FPS games can improve reaction time and hand-eye coordination.
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="bannerfp.png" alt="logo of Nerve-Ana">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+         <p id="credit"> Website built by <a href="https://open.spotify.com/show/7DkPbXhV1dbePcU7EkhsIR">CHESCA</a> &copy; All rights reserved 2023</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html> 
